@@ -18,8 +18,7 @@ Para esse projeto, foi incluído um accordion em uma página fictícia de FAQ (F
 
 ### Captura de tela
 
-<img src="src/img/captura-de-tela.png" alt="Captura de Tela do projeto FAQ Accordion">
-<br>
+<img src="img/captura-de-tela.png" alt="Captura de Tela do projeto FAQ Accordion">
 
 ---
 
@@ -29,7 +28,6 @@ Para esse projeto, foi incluído um accordion em uma página fictícia de FAQ (F
 ![image](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![image](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-  
 ---
 
 ### Aprendizados
