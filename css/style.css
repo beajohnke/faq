@@ -1,1 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-do-texto: #777;
+    --cor-principal: #1C96F3;
+}
+
+html {
+    background: #F3F4F6;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.faq {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.faq-titulo {
+    font-weight: 700;
+}
+
+.faq-texto {
+    max-width: 500px;
+    margin: 12px 0;
+    text-align: center;
+}
+
+.faq-duvidas {
+    list-style: none;
+}
+
+.duvida {
+    width: 500px;
+    margin: 15px 0;
+    padding: 18px 54px 18px 24px;
+    border-radius: 8px;
+    background-color: #fff;
+    
+    background-image: url(../img/seta-cima.jpeg);
+    background-repeat: no-repeat;
+    background-position: top 20px right 20px;
+    background-size: 20px;
+    box-shadow: rgba(50, 50, 93, 0.109) 0px 2px 5px -1px, rgba(0, 0, 0, 0.142) 0px 1px 3px -1px;
+}
+
+.duvida .pergunta {
+    transition: 0.2s ease;
+    max-width: 90%;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.duvida .pergunta:hover {
+    color: var(--cor-principal);
+}
+
+.duvida .resposta {
+    display: none;
+    margin: 18px 0;
+    color: var(--cor-do-texto);
+}
+
+.duvida.ativo h1 {
+    color: var(--cor-principal);
+}
+
+.duvida.ativo {
+    background-image: url(../img/seta-baixo.jpeg);
+}
+
+.duvida.ativo .resposta {
+    display: block;
+}
